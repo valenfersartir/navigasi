@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HalamanDiklat">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="289dp"
+            android:layout_height="193dp"
+            android:layout_marginBottom="44dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.295"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/serti1" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="188dp"
+            android:layout_height="59dp"
+            android:text="My Certicate"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.38" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="289dp"
+            android:layout_height="193dp"
+            android:layout_marginBottom="188dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/serti2" />
+
+        <Button
+            android:id="@+id/btnopo"
+            android:layout_width="255dp"
+            android:layout_height="74dp"
+            android:layout_marginBottom="16dp"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:layout_constraintVertical_bias="0.503" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
